@@ -1,0 +1,57 @@
+* {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.inline {
+	display: inline-block;
+}
+
+#img {
+	height: 500px;
+	margin: 50px;
+	float: left;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+img {
+	height: 500px;
+	margin: auto;
+}
+
+#count-div {
+	float: right;
+	height: 500px;
+	width: 500px;
+}
+
+#count {
+	margin: 50px;
+	float: left;
+	position: center;
+}
+
+p {
+	font-size: 100px;
+	position: center;
+}
